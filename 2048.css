@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+hr {
+    width: 500px;
+}
+
+#grid {
+    width: 400px;
+    height: 400px;
+    background-color: #F1EDE2;
+    border: 6px solid #D1CCBD;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gameOver {
+    position: absolute;
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+    width: 400px;
+    height: 400px;
+    font-size: 100px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.tile {
+    width: 90px;
+    height: 90px;
+    border: 5px solid #D1CCBD;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.t2 {
+    background-color: #FFE8FD;
+    color: #8B837B;
+}
+
+.t4 {
+    background-color: #FDDEFB;
+    color: #8B837B;
+}
+
+.t8 {
+    background-color: #E0ACFF;
+    color: white;
+}
+ .t16 {
+    background-color: #D99AFF;
+    color: white;
+ }
+
+ .t32 {
+    background-color: #CA70FF;
+    color: white;
+ }
+
+ .t64 {
+    background-color: #B73CFF;
+    color: white;
+ }
+
+ .t128 {
+    background-color: #FFB0E5;
+    color: white;
+ }
+
+ .t256 {
+    background-color: #FFAAE3;
+    color: white;
+ }
+
+ .t512 {
+    background-color: #FFA9E2;
+    color: white;
+ }
+
+ .t1024 {
+    background-color: #FFA1DF;
+    color: white;
+ }
+
+ .t2048 {
+    background-color: #FF9DDE;
+    color: white;
+ }
+
+ .t4096 {
+    background-color: #FF93DB;
+    color: white;
+ }
+
+ .t8192 {
+    background-color: #FF8FDA;
+    color: white;
+ }
+
